@@ -1,0 +1,16 @@
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\bin\Debug\net5.0\estruturaDoProjeto.exe
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\bin\Debug\net5.0\estruturaDoProjeto.deps.json
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\bin\Debug\net5.0\estruturaDoProjeto.runtimeconfig.json
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\bin\Debug\net5.0\estruturaDoProjeto.runtimeconfig.dev.json
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\bin\Debug\net5.0\estruturaDoProjeto.dll
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\bin\Debug\net5.0\ref\estruturaDoProjeto.dll
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\bin\Debug\net5.0\estruturaDoProjeto.pdb
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\estruturaDoProjeto.csprojAssemblyReference.cache
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\estruturaDoProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\estruturaDoProjeto.AssemblyInfoInputs.cache
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\estruturaDoProjeto.AssemblyInfo.cs
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\estruturaDoProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\estruturaDoProjeto.dll
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\ref\estruturaDoProjeto.dll
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\estruturaDoProjeto.pdb
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\estruturaDoProjeto\obj\Debug\net5.0\estruturaDoProjeto.genruntimeconfig.cache
