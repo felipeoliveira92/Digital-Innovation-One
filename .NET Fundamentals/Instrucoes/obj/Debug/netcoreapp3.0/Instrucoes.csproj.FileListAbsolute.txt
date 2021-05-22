@@ -1,0 +1,4 @@
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\Instrucoes\obj\Debug\netcoreapp3.0\Instrucoes.csprojAssemblyReference.cache
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\Instrucoes\obj\Debug\netcoreapp3.0\Instrucoes.AssemblyInfoInputs.cache
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\Instrucoes\obj\Debug\netcoreapp3.0\Instrucoes.AssemblyInfo.cs
+C:\Users\Felipe\Documents\Digital-Innovation-One\.NET Fundamentals\Instrucoes\obj\Debug\netcoreapp3.0\Instrucoes.csproj.CoreCompileInputs.cache
