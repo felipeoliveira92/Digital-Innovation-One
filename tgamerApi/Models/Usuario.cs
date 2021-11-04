@@ -19,7 +19,7 @@ namespace tgamerApi.Models
             this.celular = usuario.celular;
             this.dataCadastro = DateTime.Now;
         }
-        public void Atualizar(int id, Usuario usuario)
+        public void Atualizar(Usuario usuario)
         {            
             this.nome = usuario.nome;
             this.email = usuario.email;

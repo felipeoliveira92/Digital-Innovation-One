@@ -8,7 +8,7 @@ using tgamerApi.Models;
 namespace tgamerApi.Controllers
 {
     [ApiController]
-    [Route("api/v1/Usuarios")]
+    [Route("api/v1/usuarios")]
     public class UsuarioController
     {
         private DataContext _context;
@@ -60,18 +60,6 @@ namespace tgamerApi.Controllers
 
             return result;
         }
-
-        //[HttpPost]
-        //[Route("api/v1/Conquistas")]
-        //public Conquistas Create(Usuario usuario, Conquistas conquistas)
-        //{
-        //    var newconquista = new Conquistas(usuario, conquistas);
-
-        //    _context.Conquistas.Add(newconquista);
-        //    _context.SaveChanges();
-
-        //    return newconquista;
-        //}
 
     }
 }

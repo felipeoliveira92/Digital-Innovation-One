@@ -10,7 +10,7 @@ using tgamerApi.Models;
 namespace tgamerApi.Controllers
 {
     [ApiController]
-    [Route("api/v1/Conquistas")]
+    [Route("api/v1/conquistas")]
     public class ConquistasController : Controller
     {
         private DataContext _context;
@@ -33,36 +33,36 @@ namespace tgamerApi.Controllers
             return newconquista;
         }
 
-        //[HttpGet("{id:int}")]
-        //public Usuario GetById(int id)
-        //{
-        //    var result = _context.Usuarios.FirstOrDefault(u => u.Id == id);
-        //    return result;
-        //}
-
         [HttpGet]
         public List<Conquistas> GetConquistas()
         {
             return _context.Conquistas.ToList();
         }
 
-        //[HttpPut("{id:int}")]
-        //public Usuario PutUsuario(int id, Usuario usuario)
-        //{
-        //    usuario.Id = id;
-        //    _context.Update(usuario);
-        //    _context.SaveChanges();
-        //    return usuario;
-        //}
+        [HttpGet("{id:int}")]
+        public Conquistas GetById(int id)
+        {
+            var result = _context.Conquistas.FirstOrDefault(u => u.Id == id);
+            return result;
+        }
 
-        //[HttpDelete("{id:int}")]
-        //public Usuario DeleteUsuario(int id)
-        //{
-        //    var result = _context.Usuarios.FirstOrDefault(u => u.Id == id);
-        //    _context.Usuarios.Remove(result);
-        //    _context.SaveChanges();
+        [HttpPut("{id:int}")]
+        public Conquistas Put(int id, Conquistas conquista)
+        {
+            conquista.Id = id;
+            _context.Update(conquista);
+            _context.SaveChanges();
+            return conquista;
+        }
 
-        //    return result;
-        //}
+        [HttpDelete("{id:int}")]
+        public Conquistas Delete(int id)
+        {
+            var result = _context.Conquistas.FirstOrDefault(c => c.Id == id);
+            _context.Conquistas.Remove(result);
+            _context.SaveChanges();
+
+            return result;
+        }
     }
 }

@@ -5,6 +5,14 @@ namespace tgamerApi.Models
 {
     public class Contatos
     {
+        public Contatos(Contatos contatos)
+        {
+            this.nome = contatos.nome;
+            this.celular = contatos.celular;
+            this.usuarioId = contatos.usuarioId;
+        }
+
+
         [Key]
         public int Id { get; set; }
 
