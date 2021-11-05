@@ -15,20 +15,60 @@ namespace tgamerApi.Controllers
     {
         private DataContext _context;
 
-        public ContatosController(DataContext context)
-        {
+       public ContatosController(DataContext context)
+       {
             this._context = context;
-        }
+       }
 
         [HttpPost]
-        public Contatos Create(Contatos contatos)
+        public Contato Create(Contato contatos)
         {
-            var newContato = new Contatos(contatos);
+            var newContato = new Contato();
+
+            newContato.nome = contatos.nome;
+            newContato.celular = contatos.celular;
+            newContato.usuarioId = contatos.usuarioId;
 
             _context.Contatos.Add(newContato);
             _context.SaveChanges();
 
             return newContato;
+        }
+
+        [HttpGet]
+        public List<Contato> Get()
+        {
+            return _context.Contatos.ToList();
+        }
+
+        [HttpGet("{id:int}")]
+        public Contato GetById(int id)
+        {
+            var result = _context.Contatos.FirstOrDefault(c => c.Id == id);
+            _context.SaveChanges();
+
+            return result;
+        }
+
+        [HttpPut("{id:int}")]
+        public Contato Put(int id, Contato contato)
+        {
+            contato.Id = id;
+
+            _context.Contatos.Update(contato);
+            _context.SaveChanges();
+
+            return contato;
+        }
+
+        [HttpDelete("{id:int}")]
+        public Contato DeleteById(int id)
+        {
+            var result = _context.Contatos.FirstOrDefault(c => c.Id == id);
+            _context.Contatos.Remove(result);
+            _context.SaveChanges();
+
+            return result;
         }
     }
 }

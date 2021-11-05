@@ -3,13 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace tgamerApi.Models
 {
-    public class Contatos
+    public class Contato
     {
-        public Contatos(Contatos contatos)
+        public Contato()
         {
-            this.nome = contatos.nome;
-            this.celular = contatos.celular;
-            this.usuarioId = contatos.usuarioId;
+
         }
 
 
